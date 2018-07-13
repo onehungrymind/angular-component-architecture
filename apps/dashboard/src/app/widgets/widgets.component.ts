@@ -7,7 +7,7 @@ import { Widget, WidgetsService } from '@workspace/common-data';
   styleUrls: ['./widgets.component.css']
 })
 export class WidgetsComponent implements OnInit {
-  currentWidget: Widget;
+  selectedWidget: Widget;
   widgets: Widget[];
 
   constructor(private widgetsService: WidgetsService) { }
@@ -23,11 +23,11 @@ export class WidgetsComponent implements OnInit {
   }
 
   reset() {
-    this.currentWidget = { id: null, name: '', price: 0, description: ''};
+    this.selectedWidget = { id: null, name: '', price: 0, description: ''};
   }
 
   selectWidget(widget) {
-    this.currentWidget = widget;
+    this.selectedWidget = widget;
   }
 
   deleteWidget(widget) {
