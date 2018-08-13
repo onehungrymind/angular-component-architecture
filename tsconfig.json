@@ -21,6 +21,9 @@
       ],
       "@workspace/totals-view": [
         "libs/totals-view/src/index.ts"
+      ],
+      "@workspace/material": [
+        "libs/material/src/index.ts"
       ]
     }
   },

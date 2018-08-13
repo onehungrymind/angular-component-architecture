@@ -25,6 +25,15 @@
     },
     "embed-e2e": {
       "tags": []
+    },
+    "dashboard-widget": {
+      "tags": []
+    },
+    "dashboard-widget-e2e": {
+      "tags": []
+    },
+    "material": {
+      "tags": []
     }
   }
 }
