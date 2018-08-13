@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CommonDataModule } from '@workspace/common-data';
+import { MaterialModule } from '@workspace/material';
 import { TotalsViewModule } from '@workspace/totals-view';
 import { AppRoutingModule } from './app-routing.module';
-import { AppMaterialModule } from './app-material.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -37,7 +37,7 @@ import { WidgetsTotalComponent } from './widgets/widgets-total/widgets-total.com
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    AppMaterialModule,
+    MaterialModule,
     CommonDataModule,
     TotalsViewModule
   ],

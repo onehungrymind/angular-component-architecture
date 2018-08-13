@@ -1,0 +1,12 @@
+mat-card-header .mat-card-header-text {
+  margin-left: 0;
+  border-bottom: 1px solid #ffd740;
+}
+
+mat-card-title h1 {
+  display: inline;
+}
+
+mat-card {
+  margin-bottom: 20px !important;
+}
